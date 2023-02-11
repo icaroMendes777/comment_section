@@ -10,7 +10,16 @@ session_start();
 
 ///carrega as funcionalidades back end
 require('./util.php');
-require('./database.php');
+
+//-----
+require('./database.php'); 
+/*esse arquivo contém a conexão do banco de dados --!!!! not public, sorry!
+ recurso disponibilizado: conexão mysql simples:
+ * $conn = mysqli_connect($servername, $username, $password, $dbname);*/
+ 
+//-----
+
+
 require('./model.php');
 
 
